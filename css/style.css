@@ -1,0 +1,311 @@
+nav {
+  background: #021c1e;
+}
+
+nav .navbar-brand {
+  color: #ffffff;
+}
+
+.nav-item .nav-link {
+  color: #2b7070;
+  font-weight: bold;
+}
+
+.nav-item .active {
+  color: #ffffff;
+}
+
+.navbar-right {
+  display: flex;
+  margin-left: 30%;
+}
+
+.login-btn {
+  text-align: center;
+  line-height: 42px;
+  text-decoration: none;
+  background: #2c7873;
+  border: none;
+  width: 90px;
+  color: #ffffff;
+  margin-left: 310px;
+  font-weight: 500;
+  border-radius: 28px 1px 28px 1px;
+}
+
+.login-btn:hover {
+  color: #ffffff;
+}
+.profile_avatar {
+  width: 45px;
+  height: 45px;
+  margin-left: 15px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #ffffff;
+  border: 1px solid #efefef;
+}
+
+/* body-part */
+.body-section {
+  width: 80%;
+  display: flex;
+  margin: auto;
+  justify-content: space-between;
+  align-items: center;
+}
+.body-bottom-section {
+  width: 80%;
+  display: flex;
+  margin: auto;
+  align-items: center;
+  margin: 20px auto;
+}
+
+.body-bottom-section .bb-right {
+  margin-left: 50px;
+}
+
+.img-text {
+  margin-left: 150px;
+}
+
+.vert-line {
+  width: 1px;
+  height: 200px;
+  background: #707070;
+}
+
+.left-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.left-section .register-btn {
+  background: #2c7873;
+  border: none;
+  outline: none;
+  padding: 8px 15px;
+  border-radius: 30px;
+  color: #ffffff;
+  margin-bottom: 5px;
+}
+
+.horiz-line {
+  width: 80%;
+  height: 1px;
+  background: #707070;
+  margin: auto;
+}
+
+.bottom-horiz-line {
+  width: 40%;
+  height: 1px;
+  background: #707070;
+  margin: auto;
+}
+
+/* footer */
+.footer {
+  height: 60px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background: #6fb98f;
+}
+
+.footer .left-footer {
+  display: flex;
+  align-items: center;
+}
+
+.footer .left-footer i {
+  margin-left: 10px;
+  font-size: 20px;
+}
+
+.footer .mid-footer {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.footer .right-footer {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+/* about-section */
+.about-body {
+  margin: 50px 0px;
+  display: flex;
+  height: 65vh;
+  justify-content: space-evenly;
+}
+
+/* doctors-section */
+.doctor-body {
+  margin: 50px 0px;
+  text-align: center;
+}
+
+.doc-horiz-line {
+  width: 80%;
+  height: 1px;
+  margin-top: 15px;
+  background: #707070;
+  margin: auto;
+}
+.doc-btm-horiz-line {
+  width: 115px;
+  height: 1px;
+
+  background: #707070;
+  margin: auto;
+  margin-bottom: 50px;
+}
+
+.doctor-body h4 {
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+.doctor-information {
+  margin-bottom: 10px;
+  font-weight: 600 !important;
+}
+
+.doctors-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.doctors-section .doctor-comp {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.doctors-section .doctor-comp span {
+  font-size: 12px;
+}
+
+.doctors-section .doctor-comp img {
+  width: 170px;
+}
+
+.doctors-section .doctor-comp button {
+  border: none;
+  background: #2c7873;
+  color: #ffffff;
+  padding: 5px 15px;
+  margin: 10px 0px;
+  border-radius: 20px;
+}
+
+/* medicine-body */
+.medicine-body {
+  margin: 110px 0px;
+}
+
+/* contact-body */
+.contact-body {
+  width: 60%;
+  background: #f0f0f0;
+  margin: 96px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px;
+  border-radius: 10px;
+}
+
+.contact-body span {
+  margin: 0px 10px;
+}
+
+.contact-body div {
+  display: flex;
+  margin: 10px 0px;
+}
+
+.contact-body div input,
+.contact-body div textarea {
+  border: none;
+  outline: none;
+  padding: 5px 10px;
+  box-shadow: 1px 0px 16px 1px #cfcfcf;
+}
+
+.contact-us {
+  padding: 5px 15px;
+  border-radius: 20px;
+  margin-top: 10px;
+  border: none;
+  background: #fce0e0;
+  box-shadow: 1px 0px 16px 1px #cfcfcf;
+}
+
+/* login-page */
+.login-body {
+  border: 2px solid #707070;
+  width: 60%;
+  background: #f0f0f0;
+  margin: 60px auto;
+  display: flex;
+  flex-direction: column;
+
+  padding: 40px 170px;
+  border-radius: 10px;
+}
+
+.login-body .top-section,
+.register-body .top-section {
+  display: flex;
+  justify-content: space-between;
+}
+
+.login-body input,
+.register-body input {
+  border: none;
+  padding: 10px 15px;
+  margin: 10px 0px;
+}
+
+.login-body button,
+.register-body button {
+  border: none;
+  padding: 10px 15px;
+  margin: 10px 0px;
+  background: #49c5b6;
+  color: #ffffff;
+}
+
+.forget-pass {
+  text-align: center;
+}
+
+#error-text {
+  color: red;
+}
+
+/* register-body */
+.register-body {
+  border: 2px solid #707070;
+  width: 60%;
+  background: #f0f0f0;
+  margin: 35px auto;
+  display: flex;
+  flex-direction: column;
+
+  padding: 30px 170px;
+  border-radius: 10px;
+}
